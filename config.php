@@ -18,7 +18,7 @@ $google_client->setClientId('1005806180999-nine5u3spothf7siea0ncqnhih5fu5s7.apps
 $google_client->setClientSecret('GGOCSPX-3iEdISihGV_EAr4w7Fyo_ROYEIi7');
 
 //Set the OAuth 2.0 Redirect URI | URL AUTORIZADO
-$google_client->setRedirectUri('http://localhost/Login-con-la-API-de-google-master/web1.html');
+$google_client->setRedirectUri('http://localhost/Login-con-la-API-de-google-master/index.php');
 
 // to get the email and profile 
 $google_client->addScope('email');
